@@ -1,0 +1,10 @@
+length =3;
+breadth=2.5;
+cost=120;
+area=length * breadth;
+print("The length of the wall:",length,"m" );
+print("The breadth of the wall:",breadth,"m");
+print("Area of the wall is :",area,"sq.m" );
+print(f"The cost for per square metre painting is:${cost}");
+total_cost=area*cost;
+print(f"Therefore, the cost for 7.5 sq. m painting is:${total_cost}");
